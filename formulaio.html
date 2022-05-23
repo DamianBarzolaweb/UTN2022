@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input::placeholder{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>complete el siguiente formulario</h2>
+    <form action="" method=""> 
+        <p>
+            <label for="nom">nombre</label>
+            <input type="text" id="nom" name="" required />
+        </p>
+        <p>
+            <input type="text" placeholder="escribi tu nombre" />
+        </p>
+        <p>
+            <label for="">contraseña</label>
+            <input type="password" />
+        </p>
+        <p>
+            <label for="fecha"></label>
+            <input type="date" />
+        </p>
+        <p>
+            <label for="">Sexo</label>
+            <ul>
+                <li>
+                    <input type="radio" name="sexo" />
+                    <label for="">Mujer</label>
+                </li>
+                <li>
+                    <input type="radio" name="sexo" />
+                    <label for="">Hombre</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="">Hobbies</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="cantar" />
+                    <label for="">cantar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="correr" />
+                    <label for="">correr</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="saltar" />
+                    <label for="">saltar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="caminar" />
+                    <label for="">caminar</label>
+                </li>
+            </ul>
+        </p>
+        <p>
+            <label for="">Titulo</label>
+            <select name="" id="">
+                <option value="primario">Primario</option>
+                <option value="secundario">Secundario</option>
+                <option value="terciario">Terciario</option>
+                <option value="universitario">Universitario</option>
+            </select>
+        </p>
+        <p>
+            <label for="">Comentarios</label>
+            <textarea name="" id="" placeholder="comentarios"></textarea>
+        </p>
+        <p>
+            <label for="">imagen</label>
+            <input type="file" />
+        </p>
+        <p>
+            <input type="submit" value="Enviar" />
+            <button>Enviar</button>
+        </p>
+
+    </form>
+</body>
+</html>
